@@ -418,28 +418,6 @@ QTabWidget::pane &gt; QWidget &gt; QWidget &gt; QFrame { /* The tab widget frame
                   </attribute>
                   <layout class="QVBoxLayout" name="verticalLayout_5">
                    <item>
-                    <widget class="QQuickWidget" name="qml_ChatLines">
-                     <property name="sizePolicy">
-                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                       <horstretch>0</horstretch>
-                       <verstretch>0</verstretch>
-                      </sizepolicy>
-                     </property>
-                     <property name="acceptDrops">
-                      <bool>false</bool>
-                     </property>
-                     <property name="statusTip">
-                      <string>chat history lines QML</string>
-                     </property>
-                     <property name="autoFillBackground">
-                      <bool>true</bool>
-                     </property>
-                     <property name="resizeMode">
-                      <enum>QQuickWidget::ResizeMode::SizeRootObjectToView</enum>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
                     <widget class="QLineEdit" name="chat_lineEdit">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
@@ -756,8 +734,8 @@ QTabWidget::pane &gt; QWidget &gt; QWidget &gt; QFrame { /* The tab widget frame
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1220</width>
-     <height>15</height>
+     <width>1223</width>
+     <height>19</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSettings">
